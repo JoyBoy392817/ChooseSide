@@ -1,0 +1,20 @@
+﻿<Window x:Class="ChooseSide.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChooseSide"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text= "score" Name="txtScore"/>
+        <WrapPanel Orientation="Vertical">
+            <Border Width="400" Height="450">
+                <Button Width="100" Height="100" Name="btnLeft" Click="btnLeft_Click" Background="Azure"></Button>
+            </Border>
+            <Border Width="400" Height="450">
+                <Button Width="100" Height="100" Name="btnRight" Click="btnRight_Click" Background="Azure"></Button>
+            </Border>
+        </WrapPanel>
+    </Grid>
+</Window>
